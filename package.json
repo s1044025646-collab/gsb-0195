@@ -1,0 +1,22 @@
+{
+  "name": "pv-single-diode-backend",
+  "version": "1.0.0",
+  "description": "教学用太阳电池单二极管曲线与最大功率点后端（API + CLI）",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "start": "tsx src/server.ts",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx src/demo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
